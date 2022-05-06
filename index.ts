@@ -4,7 +4,7 @@ import { ASTNode } from '@solidity-parser/parser/dist/src/ast-types';
 import bodyParser from 'body-parser';
 
 const app: Express = express();
-const port = 3000;
+const port = 3001;
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
