@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "e4f15aa9-3eb1-41f2-a91e-110562e24d9f",
+		"name": "Solidiy Parse Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/analyze",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "code",
+							"value": "import \"VarysContractBase.sol\";\nimport \"VarysContractExtras.sol\";\ncontract VarysContract {\n  mapping (uint => address) public addresses;\n}\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/analyze",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"analyze"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
