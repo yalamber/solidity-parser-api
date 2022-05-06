@@ -1,6 +1,6 @@
 # Quick Setup
 
-- clone repo
+- clone repo https://github.com/yalamber/solidity-parser-api.git
 - cd in to the cloned directory
 - run `npm install`
 - run `npm run build`
