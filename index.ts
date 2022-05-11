@@ -31,6 +31,7 @@ app.post('/analyze', urlencodedParser, (req: Request, res: Response) => {
           break;
         case 'ContractDefinition':
           contracts.push(item.name);
+          break;
       }
     });
     res.json({
